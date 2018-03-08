@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+		#nav_bar {
+			height: 80px;
+		}
+
+		#nav_bar img {
+			float: left;
+			height: 80px;
+			margin-bottom: 10px;
+		}
+
+		#nav_bar img:hover {
+			cursor: pointer;
+		}
+
+		#nav_bar ul {
+			list-style-type: none;
+			float: right;
+			margin-top: 22px;
+		}
+
+		#nav_bar ul li{
+			display: inline-block;
+			margin-right: 15px;
+			font-size: 12px;
+			font-family: Verdana;
+		}
+
+		#nav_bar ul li:hover {
+			cursor: pointer;
+		}
+
+		.margin_right_20 {
+			margin-right: 20px;
+		}
+
+		#info_banner {
+			height: 150px;
+			padding-top: 150px;
+			background: -webkit-linear-gradient(left, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+		}
+
+		.on_focus_blue:hover {
+			color: #00acbd;
+			transition: 0.25s;
+		}
+
+		#blue_box {
+			padding: 10px 25px;
+			border: solid 2px #383753;
+			background-color: #383753;
+			color: white;
+			border-radius: 40px;
+		}
+
+		#blue_box:hover {
+			background-color: #00acbd;
+			border: solid 2px #00acbd;
+			transition: 0.25s;
+		}
+
+		#blue_border{
+			border:2px solid #00acbd;
+			padding: 10px 25px;
+			color: #00acbd;
+			border-radius:40px;
+		}
+
+		#blue_border:hover {
+			background-color: #00acbd;
+			color: white;
+		}
+
+		#info_banner p {
+			color: white;
+			font-family: Verdana;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="nav_bar">
+		<img src="hack_hand.jpg">
+		<ul>
+			<li class="on_focus_blue">HOW IT WORKS</li>
+			<li class="on_focus_blue">POSTS</li>
+			<li id="blue_box">BECOME A MENTOR</li>
+			<li id="blue_border" class="margin_right_20">SIGN IN</li>
+		</ul>
+	</div>
+	<div id="info_banner">
+		<p>hack.hands() is an online service for live programing help available 24/7.</p>
+	</div>
+</body>
+</html>

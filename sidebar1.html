@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sidebar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+	#left_panel {
+		width: 20%;
+		height: 100vh;
+		float: left;
+	}
+
+	#content {
+		width: 80%;
+		height: 100vh;
+		background-color: #979797;
+		float: right;
+	}
+
+	#left_panel .nav_info {
+		height: 5%;
+		padding-top: 20%;
+		border-bottom: 1px solid #0000002e;
+	}
+
+	#left_panel .nav_info p {
+		text-align: center;
+		font-size: 15px;
+		color: grey;
+	}
+
+	#left_panel .menu li {
+		list-style: none;
+		border-bottom: 1px solid #0000002e;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 28%;
+	}
+
+	#left_panel .menu li:hover {
+		background-color: black;
+		cursor: pointer;
+		color: white;
+	}
+	</style>
+</head>
+<body>
+	<div id="left_panel">
+		<div class="nav_info">
+			<p>STORIES</p>
+		</div>
+		<div class="menu">
+			<li>TOP STORIES</li>
+			<li>CRAFTSMANSHIP</li>
+			<li>DESIGN</li>
+			<li>TECHNOLOGY</li>
+			<li>EXPERIENCES</li>
+		</div>
+		<div class="nav_info">
+			<p>HELP AND INFORMATION</p>
+		</div>
+		<div class="menu">
+			<li>CAREERS</li>
+			<li>CONTACT US</li>
+		</div>
+	</div>
+	<div id="content"></div>
+</body>
+</html>

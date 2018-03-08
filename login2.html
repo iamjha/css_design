@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+	body {
+		background: -webkit-linear-gradient(top, #b4e391 0%,#61c419 50%,#b4e391 100%);
+	}
+	#login_box {
+		margin: 150px auto;
+		width: 400px;
+		height: 250px;
+		background-color: white;
+		box-shadow: 1px 1px 2px 1px #00000026;
+		padding-top: 60px;
+	}
+
+	#login_box #login_box_form {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#login_box #login_box_form input {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 85%;
+		height: 35px;
+		border: 1px solid #8080805c;
+		background-color: #8080805c;
+		padding-left: 4px;
+		font-family: verdana;
+
+	}
+
+	#login_box #login_box_form input:focus {
+		outline-width: 0px;
+	}
+
+	#login_box #login_box_form #password_field {
+		margin-top: 10px;
+	}
+
+	#login_box #login_box_form button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 85%;
+		margin-top: 15px;
+		border: none;
+		height: 40px;
+		color: white;
+		background-color: #1fb91fdb;
+	}
+
+	#login_box #login_box_form button:focus {
+		outline-width: 0px;
+		background-color: white;
+	}
+
+	#login_box #login_box_form p {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+		width: 80%;
+		text-align: center;
+		color: #80808091;
+		font-size: 14px;
+	}
+
+	#login_box #login_box_form p a {
+		color: green;
+		text-decoration: none;
+	}
+	</style>
+</head>
+<body>
+	<div id="login_box">
+		<div id="login_box_form">
+			<input type="text" placeholder="username">
+			<input id="password_field" type="password" placeholder="password">
+			<button>LOGIN</button>
+			<p>Not registered? <a href="#">Create an account</a></p>
+		</div>
+	</div>
+</body>
+</html>
