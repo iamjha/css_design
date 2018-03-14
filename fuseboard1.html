@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fuseboard</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<style type="text/css">
+	#upper_body {
+		background-image: url("homepage-2.jpg");
+		background-size: cover;
+		width: 100%;
+		height: 550px;
+		background-position: center;
+	}
+
+	.overlay {
+		background-color: rgba(0,0,0,0.6);
+		height: 550px;
+	}
+
+	#message {
+		width: 100%;
+		height: 100px;
+		position: absolute;
+		top: 40%;
+		text-align: center;
+		font-family: Verdana;
+	}
+
+	#message h1 {
+		font-size: 50px;
+		color: white;
+		margin-bottom: 20px;
+	}
+
+	#message p {
+		font-size: 20px;
+		color: white;
+	}
+
+	#navbar {
+		height: 80px;
+	}
+
+	#navbar img {
+		height: 40px;
+	}
+
+	#navbar ul {
+		list-style-type: none;
+		float: right;
+		margin-top: 16px;
+		position: relative;
+		padding-top: 10px;
+		height: 40px;
+		right: 150px;
+	}
+
+	#navbar ul li {
+		display: inline-block;
+		margin-right: 40px;
+		padding: 5px;
+		color: white;
+		font-family: Verdana;
+	}
+
+	#navbar ul li:hover {
+		background: rgba(0, 0, 0, 0.73);
+		transition: 0.8s;
+		cursor: pointer;
+	}
+
+	#navbar #nav_logo {
+		float: left;
+		margin-top: 15px;
+		position: relative;
+		left: 100px;
+	}
+
+	.try_button {
+		width: 200px;
+		height: 10px;
+		border: 2px solid white;
+		margin: 20px auto;
+		color: white;
+		padding: 20px 0px;
+		border-radius: 40px;
+	}
+
+	#upper_button:hover {
+		background-color: #2ad42a9e;
+		color: white;
+	}
+
+	#info {
+		height: 900px;
+		background-color: #f6f9fa;
+		box-sizing: border-box;
+		padding-top: 100px;
+		text-align: center;
+	}
+
+	#info h1 {
+		font-size: 30px;
+		font-weight: 500;
+		font-family: Verdana;
+	}
+
+	#info p {
+		margin-top: 30px;
+		font-family: Verdana;
+	}
+
+	#info img {
+		margin-top: 60px;
+	}
+	</style>
+</head>
+<body>
+	<div id="upper_body">
+	<div class="overlay">
+		<div id="navbar">
+			<div id="nav_logo">
+				<img src="fuseboard-logo.png">
+			</div>
+				<ul>
+					<li>HOME</li>
+					<li>PRODUCT</li>
+					<li>PRICING</li>
+				</ul>
+		</div>
+	</div>
+	<div id="message">
+		 <h1>Work together, seamlessly.</h1>
+		 <p class="wow fadeIn" data-wow-delay="2s">
+    		A better tool for collaborating with your team and clients.
+    	</p>
+    	<div class="try_button" id="upper_button">
+    		<span>TRY FOR FREE</span>
+    	</div>
+	</div>
+	</div>
+	<div id="info">
+		<h1>A new way to bring harmony to your business.</h1>
+		<p>Fuseboard makes it easy to manage all your activity with one product. No more complicated features you'll never use.</p>
+		<img src="client-graph.png">
+	</div>
+</body>
+</html>
